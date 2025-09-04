@@ -1,0 +1,296 @@
+body {
+    background-color: rgb(139, 165, 54);
+    display: flex;  
+    text-align: center;
+    font-size: 30px;
+    color: azure;
+    /* width:198vh; */
+}
+.login-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 198vh;
+
+}
+
+
+.login-title {
+    text-align: center;
+    justify-content: center;
+    width: 195vh;
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(2, 2, 16);
+    
+}
+.login input[type="text"],
+.login textarea {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 20%;          
+    padding: 18px;
+    margin-left:40%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.login input[type="password"],
+.login password{
+    display: flex;
+    align-content: center;
+    width: 20%;
+    padding: 18px;
+    margin-left:40%;
+    font-size: 16px ;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.login button{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    margin-left:40% ;
+    cursor: pointer;
+    border-radius: 16px;
+    color: aliceblue;
+    font-size: 18px;
+    background-color: #79e97d
+    
+
+}
+.login button:hover{
+    background-color: #45a049;
+};
+
+.register-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    width: 198vh;
+}
+.register-title{
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 50px;
+    width:198vh;
+
+    color: rgb(2, 2, 16);
+    
+    
+}
+
+
+.register input[type="text"],
+.register textarea {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    width: 20%;          
+    padding: 18px;
+    margin-left: 40%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.register input[type="password"],
+.register password{
+    display: flex;
+    align-content: center;
+    width: 20%;
+    padding: 18px;
+    margin-left: 40%;
+    font-size: 16px ;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+.register button{
+    display: flex;
+    width: 20%;
+    padding: 10px;
+    margin-left: 40%;
+    cursor: pointer;
+    border-radius: 16px;
+    color: aliceblue;
+    font-size: 18px;
+    background-color: #79e97d
+    
+
+}
+.register button:hover{
+    background-color: #45a049;
+}
+.edit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 198vh;
+
+}
+.create {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    width: 200vh;           
+    margin-top: 50px;      
+}
+
+.create input[type="text"],
+.create textarea {
+    width: 300px;          
+    padding: 18px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.create button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #79e97d;
+    color: white;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.create button:hover {
+    background-color: #45a049;
+}
+
+.post {
+    background: #a5b72f;
+    padding: 15px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    width: 100%;
+}
+
+
+.post h3 {
+    color: black;
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #222;
+    width: 198vh;
+}
+
+
+.post p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    color: #544f4f;
+    line-height: 1.5;
+}
+
+.post-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+
+.post-actions .edit-btn {
+    color: #1a1d1f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post-actions .edit-btn:hover {
+    text-decoration: underline;
+}
+
+
+.post-actions .delete-btn {
+    padding: 6px 14px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-actions .delete-btn:hover {
+    background-color: #c0392b;
+}
+
+
+.post-actions a.edit-btn:hover {
+    text-decoration: underline;
+}
+
+
+.post-actions .delete-btn {
+    padding: 5px 12px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post-actions .delete-btn:hover {
+    background-color: #c0392b;
+}
+h2{
+    color: black;
+}
+
+.edit-form {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;      
+    justify-content: center;
+    gap: 15px;                
+    width: 199vh;
+    margin-top: 40px;
+}
+
+
+.edit-form input[type="text"] {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+.edit-form textarea {
+    width: 300px;
+    height: 120px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+}
+
+
+.edit-form button {
+    padding: 8px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-form button:hover {
+    background-color: #45a049;
+}
+.postit{
+    display: flex;
+    justify-content: center;
+    width: 199vh;
+}
